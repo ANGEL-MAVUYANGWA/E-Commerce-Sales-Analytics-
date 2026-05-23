@@ -1,0 +1,88 @@
+================================================================================
+DATA SUMMARY REPORT
+Generated: 2026-05-23 08:21:12
+================================================================================
+
+Dataset Shape: 128975 rows x 25 columns
+Total Duplicates: 0
+
+COLUMN INFORMATION:
+----------------------------------------
+  index: int64 | Missing: 0 (0.00%)
+  Order ID: str | Missing: 0 (0.00%)
+  Status: str | Missing: 0 (0.00%)
+  Fulfilment: str | Missing: 0 (0.00%)
+  Sales Channel : str | Missing: 0 (0.00%)
+  ship-service-level: str | Missing: 0 (0.00%)
+  Style: str | Missing: 0 (0.00%)
+  SKU: str | Missing: 0 (0.00%)
+  Category: str | Missing: 0 (0.00%)
+  Size: str | Missing: 0 (0.00%)
+  ASIN: str | Missing: 0 (0.00%)
+  Courier Status: str | Missing: 0 (0.00%)
+  Qty: int64 | Missing: 0 (0.00%)
+  currency: str | Missing: 0 (0.00%)
+  Amount: float64 | Missing: 0 (0.00%)
+  ship-city: str | Missing: 0 (0.00%)
+  ship-state: str | Missing: 0 (0.00%)
+  ship-postal-code: float64 | Missing: 0 (0.00%)
+  ship-country: str | Missing: 0 (0.00%)
+  promotion-ids: str | Missing: 0 (0.00%)
+  B2B: bool | Missing: 0 (0.00%)
+  Unnamed: 22: object | Missing: 0 (0.00%)
+  Status_Group: str | Missing: 0 (0.00%)
+  Total_Value: float64 | Missing: 0 (0.00%)
+  Revenue_Category: category | Missing: 0 (0.00%)
+
+NUMERIC COLUMN STATISTICS:
+----------------------------------------
+
+  index:
+    count: 128975.00
+    mean: 64487.00
+    std: 37232.02
+    min: 0.00
+    25%: 32243.50
+    50%: 64487.00
+    75%: 96730.50
+    max: 128974.00
+
+  Qty:
+    count: 128975.00
+    mean: 1.00
+    std: 0.09
+    min: 1.00
+    25%: 1.00
+    50%: 1.00
+    75%: 1.00
+    max: 15.00
+
+  Amount:
+    count: 128975.00
+    mean: 644.61
+    std: 267.31
+    min: 0.00
+    25%: 459.00
+    50%: 605.00
+    75%: 771.00
+    max: 1442.00
+
+  ship-postal-code:
+    count: 128975.00
+    mean: 463975.46
+    std: 191453.14
+    min: 110001.00
+    25%: 382421.00
+    50%: 500033.00
+    75%: 600024.00
+    max: 989898.00
+
+  Total_Value:
+    count: 128975.00
+    mean: 648.78
+    std: 291.28
+    min: 0.00
+    25%: 459.00
+    50%: 605.00
+    75%: 771.00
+    max: 11536.00

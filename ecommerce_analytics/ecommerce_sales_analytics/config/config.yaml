@@ -1,0 +1,49 @@
+# config/config.yaml
+# Configuration file for E-Commerce Sales Analytics Project
+
+data:
+  raw_path: "data/raw/amazon_sales.csv"
+  cleaned_path: "data/cleaned/amazon_sales_cleaned.csv"
+  backup_path: "data/backup/"
+
+cleaning:
+  missing_threshold: 0.5
+  outlier_percentile: 0.99
+  date_format: "%d-%m-%y"
+  
+columns:
+  date: "Date"
+  order_id: "Order ID"
+  amount: "Amount"
+  quantity: "Qty"
+  status: "Status"
+  category: "Category"
+  state: "ship-state"
+  city: "ship-city"
+  
+status_mapping:
+  SHIPPED: "SHIPPED"
+  SHIPPED - DELIVERED TO BUYER: "DELIVERED"
+  SHIPPED - DELIVERED: "DELIVERED"
+  CANCELLED: "CANCELLED"
+  SHIPPED - RETURNED TO SELLER: "RETURNED"
+  SHIPPED - REJECTED BY BUYER: "REJECTED"
+  SHIPPED - LOST IN TRANSIT: "LOST"
+  UNSHIPPED: "PENDING"
+
+analysis:
+  top_n_products: 10
+  top_n_states: 10
+  top_n_cities: 10
+  revenue_brackets: [0, 250, 500, 1000, 2500, 5000, 999999]
+
+visualization:
+  style: "seaborn-v0_8-darkgrid"
+  color_palette: "husl"
+  figure_dpi: 300
+  save_formats: ["png", "svg", "html"]
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/analysis.log"

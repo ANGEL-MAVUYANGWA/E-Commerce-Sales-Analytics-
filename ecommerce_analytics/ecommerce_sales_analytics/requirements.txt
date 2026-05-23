@@ -1,0 +1,38 @@
+# requirements.txt
+# Core Data Science Libraries
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+
+# Machine Learning (optional)
+scikit-learn
+statsmodels
+
+# Dashboard
+streamlit
+
+# Jupyter
+jupyter
+ipykernel
+
+# Data Processing
+openpyxl
+xlrd
+pyyaml
+
+# Reporting
+jinja2
+
+# Utilities
+python-dateutil
+pytz
+
+# Testing
+pytest
+pytest-cov
+
+# Code Quality
+black
+flake8

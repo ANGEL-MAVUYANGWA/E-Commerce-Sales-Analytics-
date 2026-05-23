@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./ecommerce_analytics/ecommerce_sales_analytics"
+    ]
+}
